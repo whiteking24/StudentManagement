@@ -6,8 +6,7 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-            "JDBC:mysql://localhost:3306/student";
-
+            "jdbc:mysql://host.docker.internal:3306/student";
     private static final String USER = "root";
     private static final String PASSWORD = "database@0204";
 
