@@ -7,7 +7,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                url: 'YOUR_GITHUB_REPO_URL'
+                url: 'https://github.com/whiteking24/StudentManagement.git'
             }
         }
 
